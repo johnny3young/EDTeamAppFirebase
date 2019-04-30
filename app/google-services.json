@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "630126199197",
+    "firebase_url": "https://fir-afbfe.firebaseio.com",
+    "project_id": "fir-afbfe",
+    "storage_bucket": "fir-afbfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630126199197:android:bc6d3f8ae01b8dc4",
+        "android_client_info": {
+          "package_name": "com.edteam.app.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630126199197-agnj9mhtmh3nptgf17nkv2ov99uieecd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edteam.app.firebase",
+            "certificate_hash": "c4bd4159c84986b61b205079d06280f329c1d53f"
+          }
+        },
+        {
+          "client_id": "630126199197-10kmlk9qpkl1tam7ccn585ec4gnlajqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA63WBR3MurrtFiWx8N5SktYh2jkxV9AkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630126199197-10kmlk9qpkl1tam7ccn585ec4gnlajqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
