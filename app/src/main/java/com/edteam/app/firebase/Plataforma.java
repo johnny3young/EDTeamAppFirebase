@@ -11,6 +11,7 @@ import java.util.List;
 public class Plataforma extends AppCompatActivity {
     RecyclerView recyclerview;
     List<Notes> notesList;
+    NotesAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +25,11 @@ public class Plataforma extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerview.setLayoutManager(linearLayoutManager);
+        adapter = new NotesAdapter(this, notesList);
+        recyclerview.setAdapter(adapter);
     }
 
-    public void createData () {
+   public void createData () {
         notesList = new ArrayList<>();
         notesList.add(new Notes("001", "Calabazas", 6));
         notesList.add(new Notes("002", "Calabazas", 9));
